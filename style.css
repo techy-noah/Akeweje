@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    background-color: #fff;
+    width: 100vw;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+#navbar{
+    background-color: #0099ff;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar-toggler-icon {
+    filter: invert(100%);
+    font-weight: bold;
+    border-color: #fff;
+}
+.navbar-toggler {
+    border-color: white; /* Changes the border color */
+}
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-brand{
+    color: #fff;
+    font-weight: 800;
+}
+.nav-link {
+    color: #fff;
+}
+.pad{
+    padding: 1rem 3rem;
+}
+#about{
+    background-image: url(./images/wave.svg);
+   background-repeat: no-repeat;
+   background-position: bottom;
+    /* background-size: cover; */
+    background-color: #f5f5f5;
+    margin-bottom: 1rem;
+    
+}
+
+
+.title{
+    
+    color: #0099ff;
+}
+
+.carousel{
+    width: 100%;
+    height: 50%;
+}
+.carousel-item img{
+    width: 500px;
+    /* height: 500px; */
+    /* object-fit: cover; */
+}
+
+#vigilante{
+    background-color: #0099ff;
+  color: #f5f5f5;
+    margin-bottom: 1rem;
+}
+
+#entreprenuer h3{
+    color: #0099ff;
+}
+
+#traits{
+    background-color: #0099ff;
+    color: #f5f5f5;
+    margin-bottom: 1rem;
+}
+
+#traits h3{
+    text-align: center;
+    
+}
+
+footer{
+    background-color: #0099ff;
+    color: #f5f5f5;
+    padding: 1rem;
+    text-align: center;
+}
